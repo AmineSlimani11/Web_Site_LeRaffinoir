@@ -1,0 +1,266 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/*#######################################################################################################*/
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/nvllephoto.jpeg);
+    min-height: 100vh;
+    background-color: #242323;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+
+}
+/*#######################################################################################################*/
+
+header{
+    position: flex;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #242323;
+}
+ 
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+    font-size: 17px;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+    font-weight: 900;
+    
+}
+header .navbar li a:hover{
+    color: #a9621f;
+    border-bottom: 2px solid #a9621f;
+}
+
+.bouton-pour-inscripconnex{
+    padding: 10px 20px;
+    background: #a9621f;
+    margin-top: -10px;
+   text-transform:uppercase ;
+   color: #fff;
+   border-radius: 10px;
+}
+.bouton-pour-inscripconnex:hover{
+    background: #242323;
+    transition: ease-out;
+}
+
+/*#######################################################################################################*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    justify-content: center;
+    margin-top: auto;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    width: 420px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 90px;
+}
+
+.container h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.container  .input-box {
+    position: relative;
+    margin: 30px 0;
+    width: 100%;
+    height: 50px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.container .btn{
+    width: 100%;
+    height: 45px;
+    background:#fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+
+.new-account-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new-account-section p.new-here-text {
+    font-size: 15px;
+    color: #fff;
+}
+
+.new-account-section a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #a9621f;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.new-account-section a:hover {
+    background: #242323;
+}
+
+
+.new-account-section .new-here-text {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+label {
+    font-weight: bold;
+}
+
+.custom-control {
+    margin-top: 10px;
+}
+
+.mt-4 {
+    margin-top: 20px;
+}
+
+.mt-3 {
+    margin-top: 20px;
+}
+
+.mt-3 a {
+    color: #ffffff;
+}
+
+.mt-2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.bouton-pour-inscrip{
+    padding: 10px 20px;
+    background: #a9621f;
+    margin-top: -10px;
+   color: #fff;
+}
+.bouton-pour-inscrip:hover{
+    background: #242323;
+}
+
+
+
+footer {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    padding: 20px ;
+    bottom: 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px; 
+    z-index: 1;
+    position: flex;
+}
+h3{
+    font-size: 17px;  
+}
+.social-media a {
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.social-media img {
+    width: 25px; 
+    height: 25px;
+    
+}
+.social-media {
+    margin: 0 20px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.contact-info  {
+    text-align: center;
+}
+.adresse {
+    margin: 0 20px;
+}
+.adresse a {
+    color :rgb(255, 255, 255)
+}

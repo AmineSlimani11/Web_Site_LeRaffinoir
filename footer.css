@@ -1,0 +1,43 @@
+footer {
+    background-color: rgb(0, 0, 0); /* Couleur de fond du footer */
+    color: rgb(255, 255, 255); /* Couleur du texte dans le footer */
+    text-align: center;
+    padding: 20px ;
+    bottom: 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px; 
+    z-index: 1;
+    position: flex;
+}
+h3{
+    font-size: 17px;  
+}
+.social-media a {
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.social-media img {
+    width: 25px; /* la taille de l'icône de média social */
+    height: 25px;
+    
+}
+.social-media {
+    margin: 0 20px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.contact-info  {
+    text-align: center;
+}
+.adresse {
+    margin: 0 20px;
+}
+.adresse a {
+    color :rgb(255, 255, 255)
+}
+
+/*###########

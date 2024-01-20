@@ -1,0 +1,235 @@
+/*###############################################################################################################################################################*/
+    body, h1, h2, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
+/*###############################################################################################################################################################*/
+
+   body {
+        font-family: 'Times New Roman', Times, serif;
+        background-size: cover; 
+        background-position: center center; 
+        background-attachment: fixed;
+    }
+
+/*###############################################################################################################################################################*/
+ul li ul.dropdown li {
+    display: block;
+    padding: 5px 0;
+}
+
+ul li .dropdown {
+    width: 210px;
+    background-color: #242323;
+    position: absolute;
+    z-index: 999;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    padding: 15px 0;
+}
+
+ul li a:hover {
+    background: #242323;
+}
+
+ul li:hover .dropdown {
+    display: block;
+    margin: 10px;
+}
+
+    header{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: 0.5s;
+        background-color: #242323;
+    }
+
+    
+    .logo{
+        color: #fff;
+        font-weight: bold;
+        font-size: 40px;
+        text-decoration: none;
+    }
+    .navbar{
+        display: flex;
+        position: relative;
+    }
+    .navbar li{
+        list-style: none;
+        font-size: 17px;
+    }
+    .navbar a{
+        color: #fff;
+        text-decoration: none;
+        margin-left: 35px;
+        font-weight: 900;
+        
+    }
+    header .navbar li a:hover{
+        color: #a9621f;
+        border-bottom: 2px solid #a9621f;
+    }
+
+    .bouton-pour-inscripconnex{
+        padding: 10px 20px;
+        background: #a9621f;
+        margin-top: -10px;
+       text-transform:uppercase ;
+       color: #fff;
+       border-radius: 10px;
+    }
+    .bouton-pour-inscripconnex:hover{
+        background: #242323;
+        transition: ease-out;
+    }
+    
+
+/*###############################################################################################################################################################*/
+                                /*Accueil*/
+    #présentation {
+        background-size: cover;
+        background-image: url('Images/page1_.jpg.webp');
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        min-height: 100vh;
+    }
+    .bouton2{
+        font-size: 1em;
+        color: #fff;
+        background: #242323;
+        padding: 10px 20px;
+        transition: 0.5s;
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;  
+        letter-spacing: 1px;
+        margin-left: 10px;  
+    }
+    .bouton2:hover{
+        background: #a9621f;
+        transition: ease-out;
+    }
+
+/*###############################################################################################################*/
+                                /* À propos */
+    #apropos {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center; 
+        min-height: 100vh;
+        margin: 50px 0;
+        text-align: center; 
+    }
+
+    #apropos .right-image img{
+        width: 500px;
+        height: 400px;
+        margin: 20px;
+        margin-top: 50px;
+        margin-left: 30px;
+        border-radius: 20px;
+        box-shadow: 20px 10px 30px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    #apropos .left-content {
+        max-width: 50%;
+        position: left;
+    }
+
+    #apropos h2 {
+        font-size: 35px;
+        color: #a9621f;
+        text-align: left;
+    }
+
+    #apropos p {
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 20px 0; 
+        text-align: justify;
+        font-style: italic;
+        margin-right: 20px;
+    }
+
+/*#######################################################################################################################*/
+                                /*temoignage*/
+    .temoignage{
+        background-image: url(images/tble.jpg);
+        
+        background-size: cover;
+        padding: 95px ; 
+        margin-top: 10px;
+        margin: 0;
+    }
+    .temoignage h2{
+        color: rgba(255, 255, 255, 0.795);
+        text-align:  center;
+        font-size: 40px;
+    }
+    .temoignage h2 span{
+        font-size: 55px;
+        color: #fff;
+    }
+    .temoignage .contenu{
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row; 
+    }
+    .temoignage .contenu .cadre{
+        width: 200px;
+        margin: 10px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .temoignage .contenu .cadre .photo1{
+        width: 80px;
+        height: 80px;
+        border-radius:55px;
+        position: relative;
+        overflow: hidden; 
+        margin-bottom: 20px; 
+    }
+    .temoignage .contenu .cadre .photo1 img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
+    }
+    .temoignage .contenu .cadre .avis{
+        text-align: center;
+        color: rgba(102, 102, 102, 0.875);
+        font-style: italic;
+    }
+    .temoignage .contenu .cadre .avis h3{
+        color: #242323;
+        margin-top: 20px;
+        font-size: 1em;
+        font-weight: 600;
+    }
+ 
+ /*###############################################################################################################################################################*/
+ 

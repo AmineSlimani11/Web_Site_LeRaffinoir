@@ -1,0 +1,185 @@
+   
+   body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/*###############################################################################################################################################################*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff; /* Couleur de fond de la page */
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+/*###############################################################################################################################################################*/
+ul li ul.dropdown li {
+    display: block;
+    padding: 5px 0;
+}
+
+ul li .dropdown {
+    width: 210px;
+    background-color: #242323;
+    position: absolute;
+    z-index: 999;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    padding: 15px 0;
+}
+
+ul li a:hover {
+    background: #242323;
+}
+
+ul li:hover .dropdown {
+    display: block;
+    margin: 10px;
+}
+header{
+    position: flex;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #242323;
+}
+
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+    font-size: 17px;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+    font-weight: 900;
+    
+}
+header .navbar li a:hover{
+    color: #a9621f;
+    border-bottom: 2px solid #a9621f;
+}
+
+.bouton-pour-inscripconnex{
+    padding: 10px 20px;
+    background: #a9621f;
+    margin-top: -10px;
+   text-transform:uppercase ;
+   color: #fff;
+   border-radius: 10px;
+}
+.bouton-pour-inscripconnex:hover{
+    background: #242323;
+    transition: ease-out;
+}
+
+
+/*###############################################################################################################################################################*/
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+aside {
+    flex-basis: 45%; 
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10% auto;
+}
+
+aside h1{
+    color: #a9621f;
+    font-family: 'cursive';
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+aside h1 span{
+    font-size: 30px ;
+}
+
+aside p {
+    color: #333;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/*###############################################################################################################################################################*/
+
+main {
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    flex: 1;
+    position: flex;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 32%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+}
+
+input[type="submit"]:hover {
+    background-color: #a9621f;
+}
+
+/*###############################################################################################################################################################*/
+

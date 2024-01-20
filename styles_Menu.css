@@ -1,0 +1,152 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/*###############################################################################################################################################################*/
+ul li ul.dropdown li {
+    display: block;
+    padding: 5px 0;
+}
+
+ul li .dropdown {
+    width: 210px;
+    background-color: #242323;
+    position: absolute;
+    z-index: 999;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    padding: 15px 0;
+}
+
+ul li a:hover {
+    background: #242323;
+}
+
+ul li:hover .dropdown {
+    display: block;
+    margin: 10px;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #242323;
+}
+
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+
+.navbar li{
+    list-style: none;
+    font-size: 17px;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+    font-weight: 900; 
+}
+
+header .navbar li a:hover{
+    color: #a9621f;
+    border-bottom: 2px solid #a9621f;
+}
+
+.bouton-pour-inscripconnex{
+    padding: 10px 20px;
+    background: #a9621f;
+    margin-top: -10px;
+   text-transform:uppercase ;
+   color: #fff;
+   border-radius: 10px;
+}
+
+.bouton-pour-inscripconnex:hover{
+    background: #242323;
+    transition: ease-out;
+}
+
+/*###############################################################################################################################################################*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url('Images/page1.jpeg');
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+.tele-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh; 
+    margin-bottom: 30px;
+}
+
+.tele-menu a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #a9621f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.tele-menu a:hover {
+    background-color: #482607;
+}
+
+h1 {
+    margin: 0;
+}
+
+.menu-category {
+    margin: 30px 0;
+    background-color: #f5f5f5; 
+    padding: 20px;
+    border-radius: 8px; 
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+}
+
+img {
+    max-width: 100%;
+    max-height: 800px; 
+    border-radius: 5px;
+}
+.firstimg{
+    margin-top: 80px;
+}
+
+
+/*###############################################################################################################################################################*/
+
