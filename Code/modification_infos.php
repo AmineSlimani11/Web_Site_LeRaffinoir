@@ -21,12 +21,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     
 
-    // Met à jour les valeurs dans la session
-    $_SESSION['nom'] = $newNom;
-    $_SESSION['prenom'] = $newPrenom;
-    $_SESSION['email'] = $newEmail;
-    $_SESSION['telephone'] = $newTelephone;
-
     // Met à jour les valeurs dans la base de données
     require 'BD_Connection.php'; // inclure le fichier de connexion à la base de données
 
@@ -45,6 +39,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Vérifie si la requête a réussi
     if ($result) {
+        // Met à jour les valeurs dans la session
+        $_SESSION['nom'] = $newNom;
+        $_SESSION['prenom'] = $newPrenom;
+        $_SESSION['email'] = $newEmail;
+        $_SESSION['telephone'] = $newTelephone;
+
         // Redirige l'utilisateur vers la page de profil après la modification
         header("Location: Page_Profile.php");
         exit();
